@@ -10,7 +10,7 @@ import '../app_exceptions.dart';
 class NetworkApiServices extends BaseApiServices {
   Map<String, String> header = {
     'Authorization':
-        'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2YzZlZjMzZDg2ZTNhNGE2MTk4NDI1MmNhMGMwN2M3YSIsIm5iZiI6MTczMjY1MDE2Ny41MDI4NjcsInN1YiI6IjY1OWQ5ZWNkMWQzNTYzMDI1YzU0OWNlZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.nNNJxIwDUuoIh8fsbWCsVJbKVNA-WVin5ueF9YzC7z0',
+        'Bearer api key',
     'accept': 'application/json'
   };
   @override
